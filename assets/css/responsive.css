@@ -1,0 +1,26 @@
+/* Mobile */
+
+@media (max-width: 740px) {
+    #nav > li{
+    display: block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header{
+         overflow: hidden;
+    }
+    #header .mobile-menu-btn:hover{
+    background-color: #ccc;
+            }
+    #header .mobile-menu-btn:hover .menu-icon{
+    color: #000;
+   }
+   #header .menu-icon{
+     color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+   }
+}
